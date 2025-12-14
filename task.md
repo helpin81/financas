@@ -1,0 +1,32 @@
+# Tasks - Personal Financial Analysis Application (MVP)
+
+- [x] **Planning**
+    - [x] Design Database Schema (ER Diagram in Plan)
+    - [x] Create Implementation Plan
+- [x] **Database Implementation**
+    - [x] Create Migration: Accounts (Bank & Credit)
+    - [x] Create Migration: Categories (Hierarchical & Limits)
+    - [x] Create Migration: Transactions & Installments
+    - [x] Create Migration: Import Models & Rules
+    - [x] Migrate Database
+- [x] **Filament Resources (Basic CRUD)**
+    - [x] Resource: Accounts (Contas e Cartões)
+    - [x] Resource: Categories
+    - [x] Resource: Transactions (Movimentos)
+    - [x] Resource: Import Models
+- [x] **Import Logic (Core)**
+    - [x] Service: OFX Parser
+    - [x] Service: PDF Parser (with Regex Models)
+    - [x] Action: Import Transaction File (Queueable)
+    - [x] Service: Categorization Logic (History based)
+- [x] **Dashboard & Reports**
+    - [x] Filament Widget: Monthly Overview (StatsOverview)
+    - [x] Filament Widget: Expenses by Category (Chart)
+    - [x] Filament Widget: Monthly Evolution (Chart)
+- [ ] **Verification**
+    - [x] Seed Database (Admin & Test Data)
+    - [x] Setup Admin Panel Theme
+    - [x] Test OFX Import (Unit Test)
+    - [x] Test PDF Import with Model (Unit Test)
+    - [x] Test Categorization Logic (Unit Test)
+    - [ ] Verify Dashboard data
